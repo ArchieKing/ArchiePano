@@ -1,0 +1,39 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>您的消费金已满额，请查收</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #fcfcfc;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
+	<script  src="libs/jquery-2.1.1.min.js"></script>
+    <script>
+         $(document).ready(function(){
+                var num=($("body").css("height").substr(0,$("body").css("height").length-2)-$("body").css("width").substr(0,$("body").css("width").length-2))/2;
+                //$("img").attr("style","margin-top:"+num+"px;width:100%;")
+            });
+        function show(){
+            setTimeout(function(){$("img").remove();},6000);
+        }
+    </script>
+</head>
+<body>
+
+       <img src="show.gif" onload="show()"  style="height:100%;width: 100%;position: absolute;top: 0px;">
+    <iframe src="http://720yun.com/t/3d92e9pOcyi" style="width:100%;height:100%;margin:0px;padding:0px;"></iframe>
+</body>
+</html>

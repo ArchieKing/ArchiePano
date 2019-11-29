@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.19">
+
+    
+  <!-- Spot Style - Default Point Spot Style -->
+  <style name="IconDefaultPointSpotStyle"
+         url="%FIRSTXML%/spots/hotspot_image_sequence_user_defaultpoint0.png"
+         visible="false"
+         frame="0"
+         lastframe="12"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconDefaultPointSpotStyle"
+         onout="onoutIconDefaultPointSpotStyle"
+
+
+         />
+
+  <action name="onhoverIconDefaultPointSpotStyle">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconDefaultPointSpotStyle">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+<!-- ********** -->
+<!-- iControl 控制条 -->
+<!-- id : controlBar_i -->
+<!-- ********** -->
+
+  <krpano controlBar_ibarbuilt="false" controlBar_ibackgroundwidthwhenclosed="0" controlBar_ibackgroundwidthwhenopened="0" controlBar_iIsOpened="false" />
+  <events name="controlBar_ievents" 
+    onxmlcomplete="controlBar_ibuildMenuBar();" 
+
+
+    keep="true" />
+
+
+
+  <action name="controlBar_ibuildMenuBar">
+    ifnot (controlBar_ibarbuilt, controlBar_ibuildMenu(); set(controlBar_ibarbuilt, true););
+  </action>
+
+  <style name="controlBar_i_btn_style"
+         keep="true"
+         edge="right"
+         align="right"
+         x="0" y="0"
+         width="40" height="40"
+         crop="0|0|60|60"
+         onovercrop="0|60|60|60"
+         ondowncrop="0|120|60|60"
+         onhover="showTooltip('plugin', controlBar_imenuTooltipStyle, bottom);"
+         onout="hideTooltip();"
+         />
+  <style name="controlBar_i_btn_style_off"
+         keep="true"
+         edge="right"
+         align="right"
+         x="0" y="0"
+         width="40" height="40"
+         onhover="showTooltip('plugin', controlBar_imenuTooltipStyle, bottom);"
+         onout="hideTooltip();"
+         />
+
+  <layer name="controlBar_i_menu_bg"
+         keep="true"
+         type="container"
+         zorder="1"
+         width="40"
+         height="40"
+         align="bottom"
+         x="0" y="10"
+         maskchildren="true"
+         rotate="0"
+         visible="false"
+         >
+
+    <layer name="controlBar_ibtn_enter_vr"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_vr_mode.png"
+            style="controlBar_i_btn_style"
+            onclick="js(accessWebVr());
+"
+            tooltip="controlBar_ienterVRTip"
+            visible="false"
+            devices="html5"
+            />
+    <layer name="controlBar_ibtn_enter_vr_not"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_vr_mode_off.png"
+            style="controlBar_i_btn_style"
+            tooltip="controlBar_ienterVRNotTip"
+            enabled="true"
+            capture="false"
+            visible="false"
+            devices="html5"
+            />
+
+
+
+    <layer name="controlBar_ibtn_prev_pano"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_previous_scene.png"
+            onclick="loadPreviousScene();
+"
+            style="controlBar_i_btn_style"
+            tooltip="controlBar_iprevSceneTip"
+            visible="false"
+            />
+    <layer name="controlBar_ibtn_next_pano"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_next_scene.png"
+            onclick="loadNextScene();
+"
+            style="controlBar_i_btn_style"
+            tooltip="controlBar_inextSceneTip"
+            visible="false"
+            />
+
+
+
+
+    <layer name="controlBar_ibtn_autotour_on"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_start_automatic_tour.png"
+            onclick="startautotour();
+"
+            style="controlBar_i_btn_style"
+            visible="false"
+            tooltip="controlBar_iautotourOnTip"
+            />
+    <layer name="controlBar_ibtn_autotour_off"
+            url="%FIRSTXML%/graphics/icontrolbar/btn_stop_automatic_tour.png"
+            onclick="stopautotour();
+"
+            style="controlBar_i_btn_style"
+            visible="false"
+            tooltip="controlBar_iautotourOffTip"
+            />
+
+
+
+
+ </layer>
+
+
+
+<events name="controlBar_ivravailableevent"
+		onvravailable="controlBar_iupdateVrButtonsAvailability();"
+		onvrunavailable="controlBar_iupdateVrButtonsAvailability();"
+		keep="true" devices="html5" />
+	<krpano controlBar_imenuvravailable="false" />
+	<action name="controlBar_iupdateVrButtonsAvailability">
+		if (tour_vrdevices,
+			set(controlBar_imenuvravailable, true);
+		,
+			set(controlBar_imenuvravailable, false);
+		);
+		controlBar_iupdateVrButtons();
+	</action>
+	<action name="controlBar_iHideVrButtons">
+		set(layer[controlBar_ibtn_enter_vr].visible, false);
+		if('%1' == 'true' AND plugin[ptpvrmode],
+			set(layer[controlBar_ibtn_enter_vr_not].visible, true);
+		,
+			set(layer[controlBar_ibtn_enter_vr_not].visible, false);
+		);
+	</action>
+	<action name="controlBar_iShowVrButtons">
+		if (controlBar_imenuvravailable,
+			set(layer[controlBar_ibtn_enter_vr].visible, true);
+			set(layer[controlBar_ibtn_enter_vr_not].visible, false);
+		,
+			controlBar_iHideVrButtons(true);
+		);
+	</action>
+	<action name="controlBar_iupdateVrButtons">
+	if (tour_vrdevices,
+		if (controlBar_iIsOpened,
+			controlBar_iShowVrButtons();
+		,
+			controlBar_iHideVrButtons();
+		);
+	,
+		if (controlBar_iIsOpened,
+			controlBar_iHideVrButtons(true);
+		,
+			controlBar_iHideVrButtons();
+		);
+	);
+	</action>
+
+
+
+  <action name="controlBar_ihideMenuControls">
+    set(controlBar_iIsOpened, false);
+if (scene.count GT 1,
+	set(layer[controlBar_ibtn_next_pano].visible, false);
+	set(layer[controlBar_ibtn_prev_pano].visible, false);
+);
+
+
+
+
+
+	controlBar_iupdateAutotourButtons();
+
+
+	controlBar_iupdateVrButtons();
+
+
+
+	set(layer[controlBar_i_menu_bg].width, get(controlBar_ibackgroundwidthwhenclosed));
+
+	set(layer[controlBar_i_menu_bg].visible, true);
+  </action>
+  <action name="controlBar_ishowMenuControls">
+    set(controlBar_iIsOpened, true);
+	set(layer[controlBar_i_menu_bg].visible, true);
+if (scene.count GT 1,
+	set(layer[controlBar_ibtn_next_pano].visible, true);
+	set(layer[controlBar_ibtn_prev_pano].visible, true);
+);
+
+
+
+
+
+	controlBar_iupdateAutotourButtons();
+	controlBar_iupdateVrButtons();
+
+
+
+
+    set(layer[controlBar_i_menu_bg].width, get(controlBar_ibackgroundwidthwhenopened));
+  </action>
+
+
+
+
+
+	<events name="controlBar_iAutotourEvents"
+		onstartautotour="controlBar_iupdateAutotourButtons();"
+		onstopautotour="controlBar_iupdateAutotourButtons();"
+		keep="true"/>
+	<action name="controlBar_iHideAutotourButtons">
+		set(layer[controlBar_ibtn_autotour_off].visible, false);
+		set(layer[controlBar_ibtn_autotour_on].visible , false);
+	</action>
+	<action name="controlBar_iShowAutotourButtons">
+		if (tour_autotourenabled == false,
+			set(layer[controlBar_ibtn_autotour_off].visible, false);
+			set(layer[controlBar_ibtn_autotour_on].visible , true);
+		,
+			set(layer[controlBar_ibtn_autotour_off].visible, true);
+			set(layer[controlBar_ibtn_autotour_on].visible , false);
+		);
+	</action>
+	<action name="controlBar_iupdateAutotourButtons">
+		if (controlBar_iIsOpened,
+			controlBar_iShowAutotourButtons();
+		,
+			controlBar_iHideAutotourButtons();
+		);
+	</action>
+
+
+<layer name="controlBar_imenuTooltipStyle"
+	keep="true"
+	enabled="false"
+	capture="false"
+	url="%FIRSTXML%/graphics/textfield.swf"
+	align="center"
+	background="false"
+	border="false"
+	css="color:#000000;font-family:Helvetica;font-weight:bold;font-size:14px;text-align:left;"
+	height="20"
+	autoheight="true"
+	autowidth="auto"
+	xoffset="0"
+	yoffset="0"
+	padding="2"
+	selectable="false"
+	zorder="0"
+	visible="false"
+	html=""
+	edge="bottom"
+/>
+  <action name="controlBar_ibuildMenu">
+    
+    set(controlBar_ibutton_pos, 0);
+
+
+
+
+
+
+      set(layer[controlBar_ibtn_autotour_on].x , get(controlBar_ibutton_pos));
+      set(layer[controlBar_ibtn_autotour_off].x, get(controlBar_ibutton_pos));
+      inc(controlBar_ibutton_pos, 45);
+
+
+
+    if(plugin[ptpvrmode] AND device.html5,
+      set(layer[controlBar_ibtn_enter_vr].x, get(controlBar_ibutton_pos));
+      set(layer[controlBar_ibtn_enter_vr_not].x, get(controlBar_ibutton_pos));
+      inc(controlBar_ibutton_pos, 45);
+    );
+
+
+
+    if (scene.count GT 1,
+        set(layer[controlBar_ibtn_next_pano].x, get(controlBar_ibutton_pos));
+        inc(controlBar_ibutton_pos, 45);
+        set(layer[controlBar_ibtn_prev_pano].x, get(controlBar_ibutton_pos));
+        inc(controlBar_ibutton_pos, 45);
+      );
+
+
+
+      dec(controlBar_ibutton_pos, 5);
+
+      set(controlBar_ibackgroundwidthwhenopened, get(controlBar_ibutton_pos));
+
+
+    
+      set(layer[controlBar_i_menu_bg].width, get(controlBar_ibackgroundwidthwhenopened));
+	
+	
+	
+    </action>
+
+	<events name="controlBar_iStartTourEvents" onTourStart="controlBar_iCallOnStartTour();" keep="true" />
+	
+	<action name="controlBar_iCallOnStartTour">
+		
+		controlBar_ishowMenuControls();
+	</action>
+
+
+
+	<!-- WebVR plugin for VR availability tests -->
+
+	<plugin name="ptpvrmode" devices="html5" keep="true"
+		url="%FIRSTXML%/graphics/webvr.js"
+		mobilevr_support="true"
+		mobilevr_fake_support="false"
+		vr_cursor=""
+		vr_cursor_enabled="false"
+		onavailable="delayedcall(1, checkVrAvailability(););"
+		onunavailable="checkVrUnavailable();"
+		/>
+	<action name="checkVrAvailability">
+		if(plugin[ptpvrmode],
+			if (plugin[ptpvrmode].isavailable,
+				set(tour_vrdevices, true);
+				events.dispatch(onvravailable);
+			,
+				set(tour_vrdevices, false);
+			);
+		,
+			checkVrUnavailable();
+		);
+	</action>
+	<action name="checkVrUnavailable">
+		set(tour_vrdevices, false);
+		events.dispatch(onvrunavailable);
+	</action>
+</krpano>

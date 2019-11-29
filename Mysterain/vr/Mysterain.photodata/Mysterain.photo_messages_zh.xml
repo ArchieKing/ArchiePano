@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="zh_project_title"><![CDATA[Mysterain小雨樂隊末日森林音樂會3D場景]]></data>
+
+
+  <data name="zh_panogroup46_title"><![CDATA[编组 46]]></data>
+
+  <data name="zh_pano37_title"><![CDATA[LIVE 01]]></data>
+  <data name="zh_spotpoint55_tooltip"><![CDATA[下一个场景]]></data>
+  <data name="zh_spotpoint57_tooltip"><![CDATA[回顾]]></data>
+  <data name="zh_spotpoint57openurlwebsiteurl"><![CDATA[http://mp.weixin.qq.com/s?__biz=MjM5Mjc3MjE0MA==&mid=402507891&idx=1&sn=059ee8cc0ff1aab735dbfc7545eca57f&scene=1&srcid=0329y8QYXOj7RjcBOmkNtnik&from=groupmessage&isappinstalled=0#wechat_redirect]]></data>
+  <data name="zh_pano38_title"><![CDATA[LIVE 02]]></data>
+  <data name="zh_spotpoint59_tooltip"><![CDATA[下一个场景]]></data>
+  <data name="zh_spotpoint60_tooltip"><![CDATA[回顾]]></data>
+  <data name="zh_spotpoint60openurlwebsiteurl"><![CDATA[http://mp.weixin.qq.com/s?__biz=MjM5Mjc3MjE0MA==&mid=402507891&idx=1&sn=059ee8cc0ff1aab735dbfc7545eca57f&scene=1&srcid=0329y8QYXOj7RjcBOmkNtnik&from=groupmessage&isappinstalled=0#wechat_redirect]]></data>
+  <data name="zh_pano39_title"><![CDATA[LIVE 03]]></data>
+  <data name="zh_spotpoint61_tooltip"><![CDATA[下一个场景]]></data>
+  <data name="zh_spotpoint62_tooltip"><![CDATA[回顾]]></data>
+  <data name="zh_spotpoint62openurlwebsiteurl"><![CDATA[http://mp.weixin.qq.com/s?__biz=MjM5Mjc3MjE0MA==&mid=402507891&idx=1&sn=059ee8cc0ff1aab735dbfc7545eca57f&scene=1&srcid=0329y8QYXOj7RjcBOmkNtnik&from=groupmessage&isappinstalled=0#wechat_redirect]]></data>
+  <data name="zh_pano40_title"><![CDATA[LIVE 04]]></data>
+  <data name="zh_spotpoint63_tooltip"><![CDATA[下一个场景]]></data>
+  <data name="zh_spotpoint64_tooltip"><![CDATA[回顾]]></data>
+  <data name="zh_spotpoint64openurlwebsiteurl"><![CDATA[http://mp.weixin.qq.com/s?__biz=MjM5Mjc3MjE0MA==&mid=402507891&idx=1&sn=059ee8cc0ff1aab735dbfc7545eca57f&scene=1&srcid=0329y8QYXOj7RjcBOmkNtnik&from=groupmessage&isappinstalled=0#wechat_redirect]]></data>
+  <data name="zh_pano41_title"><![CDATA[LIVE 05]]></data>
+  <data name="zh_spotpoint65_tooltip"><![CDATA[下一个场景]]></data>
+  <data name="zh_spotpoint66_tooltip"><![CDATA[回顾]]></data>
+  <data name="zh_spotpoint66openurlwebsiteurl"><![CDATA[http://mp.weixin.qq.com/s?__biz=MjM5Mjc3MjE0MA==&mid=402507891&idx=1&sn=059ee8cc0ff1aab735dbfc7545eca57f&scene=1&srcid=0329y8QYXOj7RjcBOmkNtnik&from=groupmessage&isappinstalled=0#wechat_redirect]]></data>
+  <data name="zh_pano42_title"><![CDATA[LIVE 06]]></data>
+  <data name="zh_spotpoint67_tooltip"><![CDATA[下一个场景]]></data>
+  <data name="zh_spotpoint68_tooltip"><![CDATA[回顾]]></data>
+  <data name="zh_spotpoint68openurlwebsiteurl"><![CDATA[http://mp.weixin.qq.com/s?__biz=MjM5Mjc3MjE0MA==&mid=402507891&idx=1&sn=059ee8cc0ff1aab735dbfc7545eca57f&scene=1&srcid=0329y8QYXOj7RjcBOmkNtnik&from=groupmessage&isappinstalled=0#wechat_redirect]]></data>
+  <data name="zh_pano43_title"><![CDATA[LIVE 060]]></data>
+  <data name="zh_spotpoint69_tooltip"><![CDATA[下一个场景]]></data>
+  <data name="zh_spotpoint70_tooltip"><![CDATA[回顾]]></data>
+  <data name="zh_spotpoint70openurlwebsiteurl"><![CDATA[http://mp.weixin.qq.com/s?__biz=MjM5Mjc3MjE0MA==&mid=402507891&idx=1&sn=059ee8cc0ff1aab735dbfc7545eca57f&scene=1&srcid=0329y8QYXOj7RjcBOmkNtnik&from=groupmessage&isappinstalled=0#wechat_redirect]]></data>
+  <data name="zh_pano44_title"><![CDATA[LIVE 07]]></data>
+  <data name="zh_spotpoint72_tooltip"><![CDATA[下一个场景]]></data>
+  <data name="zh_spotpoint73_tooltip"><![CDATA[回顾]]></data>
+  <data name="zh_spotpoint73openurlwebsiteurl"><![CDATA[http://mp.weixin.qq.com/s?__biz=MjM5Mjc3MjE0MA==&mid=402507891&idx=1&sn=059ee8cc0ff1aab735dbfc7545eca57f&scene=1&srcid=0329y8QYXOj7RjcBOmkNtnik&from=groupmessage&isappinstalled=0#wechat_redirect]]></data>
+  <data name="zh_pano45_title"><![CDATA[LIVE 08]]></data>
+  <data name="zh_spotpoint74_tooltip"><![CDATA[下一个场景]]></data>
+  <data name="zh_spotpoint75_tooltip"><![CDATA[回顾]]></data>
+  <data name="zh_spotpoint75openurlwebsiteurl"><![CDATA[http://mp.weixin.qq.com/s?__biz=MjM5Mjc3MjE0MA==&mid=402507891&idx=1&sn=059ee8cc0ff1aab735dbfc7545eca57f&scene=1&srcid=0329y8QYXOj7RjcBOmkNtnik&from=groupmessage&isappinstalled=0#wechat_redirect]]></data>
+
+
+
+
+
+
+  <data name="zh_controlBar_classichomeTip"><![CDATA[首页]]></data>
+  <data name="zh_controlBar_classicwebpageurl"><![CDATA[http://cdn.ycpor.com/yuenchongvr/Index/Index.html]]></data>
+  <data name="zh_controlBar_classicopenFsTip"><![CDATA[进入全屏]]></data>
+  <data name="zh_controlBar_classiccloseFsTip"><![CDATA[退出全屏]]></data>
+  <data name="zh_controlBar_classicsoundsOnTip"><![CDATA[播放声音]]></data>
+  <data name="zh_controlBar_classicsoundsOffTip"><![CDATA[停止声音]]></data>
+  <data name="zh_controlBar_classicenterVRTip"><![CDATA[VR模式]]></data>
+  <data name="zh_controlBar_classicenterVRNotTip"><![CDATA[VR模式不可用]]></data>
+  <data name="zh_controlBar_classicdisplayControlsTip"><![CDATA[显示控制工具]]></data>
+  <data name="zh_controlBar_classichideControlsTip"><![CDATA[隐藏控制工具]]></data>
+  <data name="zh_logowebsiteurl"><![CDATA[http://cdn.ycpor.com/yuenchongvr/Mysterain/MysterainHTML/Mysterain.html]]></data>
+  <data name="zh_logotooltipText"><![CDATA[打开网站]]></data>
+
+
+  <data name="zh_vr_setup_hmd0"><![CDATA[选择你的 HMD]]></data>
+  <data name="zh_vr_setup_advanced"><![CDATA[高级设置]]></data>
+  <data name="zh_vr_setup_title"><![CDATA[WEB VR设置]]></data>
+  <data name="zh_vr_setup_dvn1"><![CDATA[设备:]]></data>
+  <data name="zh_vr_setup_siz1"><![CDATA[屏幕尺寸:]]></data>
+  <data name="zh_vr_setup_ipd1"><![CDATA[集成产品开发:]]></data>
+  <data name="zh_vr_setup_hmd1"><![CDATA[头盔显示器:]]></data>
+  <data name="zh_vr_setup_hmd3"><![CDATA[自定义]]></data>
+  <data name="zh_vr_setup_cal"><![CDATA[校准陀螺仪]]></data>
+  <data name="zh_vr_setup_sav"><![CDATA[保存]]></data>
+  <data name="zh_vr_setup_rst"><![CDATA[重置]]></data>
+  <data name="zh_vr_setup_simple"><![CDATA[简单]]></data>
+  <data name="zh_vr_setup_cls"><![CDATA[关闭]]></data>
+  <data name="zh_vr_setup_m31"><![CDATA[头盔显示器设置]]></data>
+  <data name="zh_vr_setup_fov1"><![CDATA[FOV:]]></data>
+  <data name="zh_vr_setup_dst1"><![CDATA[失真:]]></data>
+  <data name="zh_vr_setup_d2tx"><![CDATA[失真度2:]]></data>
+  <data name="zh_vr_setup_vig1"><![CDATA[小插图:]]></data>
+  <data name="zh_vr_setup_cac1"><![CDATA[色差:]]></data>
+  <data name="zh_vr_setup_olp1"><![CDATA[重叠:]]></data>
+  <data name="zh_vr_setup_m35"><![CDATA[返回]]></data>
+  <data name="zh_vr_setup_cb1"><![CDATA[陀螺仪]]></data>
+  <data name="zh_vr_setup_cb2"><![CDATA[将设备放在一个平面上，[br]或者稳定的表面和标签上，[br]以纠正一个陀螺仪偏移。]]></data>
+  <data name="zh_vr_setup_cb3"><![CDATA[校准]]></data>
+  <data name="zh_vr_setup_cb4"><![CDATA[重置]]></data>
+  <data name="zh_vr_setup_cb5"><![CDATA[返回]]></data>
+  <data name="zh_vr_setup_cb6"><![CDATA[校准...]]></data>
+  <data name="zh_vr_setup_cb7"><![CDATA[校准成功]]></data>
+  <data name="zh_vr_setup_cb8"><![CDATA[校准失败]]></data>
+  <data name="zh_vr_setup_unavailable"><![CDATA[VR模式[br]在您的设备上不可用]]></data>
+
+
+  <data name="zh_project_description"><![CDATA[<span style="color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 28px; widows: 1; background-color: rgb(255, 255, 255);">2016.3.26国内首场3D全景摇滚音乐会！音乐会现场赢得了现场乐迷和圈内人士的高度好评！接下进入筹备全新专辑！</span><br style="color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 28px; widows: 1; background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 28px; widows: 1; background-color: rgb(255, 255, 255);">广州女声旋律金属-小雨乐队融合民乐全新阵容2015全新单曲《苦林破青》首发！乐队在发布了最新专辑《繁华落境》后，完成了首次全国17城的巡演，2015年乐队展开新的尝试，加入了民乐成员，在原来旋律/交响金属/哥特的风格基础上融入了更多的民乐元素，展开了更多新风格的尝试。《苦林破青》为全新的阵容的首发器乐单曲，单曲发布也为乐队下张专辑做预热铺垫，歌曲编配把中国传统民乐竹笛和箫很好的融合在旋律金属的恢宏气势中，并且加入了小提琴的点缀，让悠扬的旋律与充满力量的金属带着土壤的惊动，自然结合的冲气，响彻山林云霄！</span><br style="color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 28px; widows: 1; background-color: rgb(255, 255, 255);">]]></data>
+
+  <data name="zh_panogroup46_description"><![CDATA[<span style="color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 28px; widows: 1; background-color: rgb(255, 255, 255);">2016.3.26国内首场3D全景摇滚音乐会！音乐会现场赢得了现场乐迷和圈内人士的高度好评！接下进入筹备全新专辑！</span><br style="color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 28px; widows: 1; background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 28px; widows: 1; background-color: rgb(255, 255, 255);">广州女声旋律金属-小雨乐队融合民乐全新阵容2015全新单曲《苦林破青》首发！乐队在发布了最新专辑《繁华落境》后，完成了首次全国17城的巡演，2015年乐队展开新的尝试，加入了民乐成员，在原来旋律/交响金属/哥特的风格基础上融入了更多的民乐元素，展开了更多新风格的尝试。《苦林破青》为全新的阵容的首发器乐单曲，单曲发布也为乐队下张专辑做预热铺垫，歌曲编配把中国传统民乐竹笛和箫很好的融合在旋律金属的恢宏气势中，并且加入了小提琴的点缀，让悠扬的旋律与充满力量的金属带着土壤的惊动，自然结合的冲气，响彻山林云霄！</span>]]></data>
+
+  <data name="zh_pano37_description"><![CDATA[<div style="widows: 1;"><br></div>]]></data>
+
+
+
+
+
+
+
+
+
+
+</krpano>

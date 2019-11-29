@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="zh_project_title"><![CDATA[李嘉宜演出全景回顾]]></data>
+  <data name="zh_project_author_name"><![CDATA[广州市炫创信息科技有限公司]]></data>
+  <data name="zh_project_author_url"><![CDATA[http://www.ycpor.com/]]></data>
+
+
+
+  <data name="zh_pano712_title"><![CDATA[门口]]></data>
+  <data name="zh_spotpoint1453_tooltip"><![CDATA[下一个场景]]></data>
+  <data name="zh_spotpoint1453openurlwebsiteurl"><![CDATA[]]></data>
+  <data name="zh_spotpoint1566_tooltip"><![CDATA[李嘉宜粤剧艺术专场成功上演]]></data>
+  <data name="zh_spotpoint1566openurlwebsiteurl"><![CDATA[http://mp.weixin.qq.com/s?__biz=MzA3NTEwNTExNQ==&mid=504265775&idx=1&sn=50168b716733fe5e04353b3cdfd608d0&scene=1&srcid=0606hTJSAMnaDJspujcRZ9Hk&from=singlemessage&isappinstalled=0#wechat_redirect]]></data>
+
+
+  <data name="zh_pano13_title"><![CDATA[02大堂]]></data>
+  <data name="zh_spotpoint1450_tooltip"><![CDATA[下一个场景]]></data>
+  <data name="zh_spotpoint1450openurlwebsiteurl"><![CDATA[]]></data>
+
+
+  <data name="zh_pano22_title"><![CDATA[08演出前]]></data>
+  <data name="zh_spotpoint1451_tooltip"><![CDATA[下一个场景]]></data>
+  <data name="zh_spotpoint1451openurlwebsiteurl"><![CDATA[]]></data>
+
+
+  <data name="zh_pano19_title"><![CDATA[06演出前观众就位]]></data>
+  <data name="zh_spotpoint1452_tooltip"><![CDATA[下一个场景]]></data>
+  <data name="zh_spotpoint1452openurlwebsiteurl"><![CDATA[]]></data>
+
+
+  <data name="zh_pano789_title"><![CDATA[R0010913]]></data>
+  <data name="zh_spotpoint1456_tooltip"><![CDATA[下一个场景]]></data>
+  <data name="zh_spotpoint1456openurlwebsiteurl"><![CDATA[]]></data>
+
+
+  <data name="zh_pano790_title"><![CDATA[主角化妆]]></data>
+  <data name="zh_spotpoint1454_tooltip"><![CDATA[下一个场景]]></data>
+  <data name="zh_spotpoint1454openurlwebsiteurl"><![CDATA[]]></data>
+
+
+  <data name="zh_pano800_title"><![CDATA[主角化妆01]]></data>
+  <data name="zh_spotpoint1455_tooltip"><![CDATA[下一个场景]]></data>
+  <data name="zh_spotpoint1455openurlwebsiteurl"><![CDATA[]]></data>
+
+
+  <data name="zh_pano16_title"><![CDATA[05彩排]]></data>
+  <data name="zh_spotpoint1457_tooltip"><![CDATA[下一个场景]]></data>
+  <data name="zh_spotpoint1457openurlwebsiteurl"><![CDATA[]]></data>
+
+
+  <data name="zh_pano306_title"><![CDATA[演出]]></data>
+  <data name="zh_spotpoint1458_tooltip"><![CDATA[下一个场景]]></data>
+  <data name="zh_spotpoint1458openurlwebsiteurl"><![CDATA[]]></data>
+
+
+  <data name="zh_pano307_title"><![CDATA[演出]]></data>
+  <data name="zh_spotpoint1459_tooltip"><![CDATA[下一个场景]]></data>
+  <data name="zh_spotpoint1459openurlwebsiteurl"><![CDATA[]]></data>
+
+
+  <data name="zh_pano23_title"><![CDATA[09演出01]]></data>
+  <data name="zh_spotpoint1464_tooltip"><![CDATA[下一个场景]]></data>
+  <data name="zh_spotpoint1464openurlwebsiteurl"><![CDATA[]]></data>
+
+
+  <data name="zh_pano27_title"><![CDATA[9演出]]></data>
+  <data name="zh_spotpoint1461_tooltip"><![CDATA[下一个场景]]></data>
+  <data name="zh_spotpoint1461openurlwebsiteurl"><![CDATA[]]></data>
+
+
+  <data name="zh_pano24_title"><![CDATA[09演出02]]></data>
+  <data name="zh_spotpoint1460_tooltip"><![CDATA[下一个场景]]></data>
+  <data name="zh_spotpoint1460openurlwebsiteurl"><![CDATA[]]></data>
+
+
+  <data name="zh_pano791_title"><![CDATA[谢幕]]></data>
+  <data name="zh_spotpoint1463_tooltip"><![CDATA[下一个场景]]></data>
+  <data name="zh_spotpoint1463openurlwebsiteurl"><![CDATA[]]></data>
+
+
+  <data name="zh_pano26_title"><![CDATA[11大堂]]></data>
+  <data name="zh_spotpoint626_tooltip"><![CDATA[下一个场景]]></data>
+  <data name="zh_spotpoint626openurlwebsiteurl"><![CDATA[]]></data>
+
+
+	<data name="zh_spotmap1656_tooltip"><![CDATA[]]></data>
+	<data name="zh_spotmap1657_tooltip"><![CDATA[]]></data>
+	<data name="zh_spotmap1658_tooltip"><![CDATA[]]></data>
+	<data name="zh_spotmap1659_tooltip"><![CDATA[]]></data>
+	<data name="zh_spotmap1660_tooltip"><![CDATA[]]></data>
+	<data name="zh_spotmap1661_tooltip"><![CDATA[]]></data>
+	<data name="zh_spotmap1662_tooltip"><![CDATA[]]></data>
+	<data name="zh_spotmap1663_tooltip"><![CDATA[]]></data>
+	<data name="zh_spotmap1664_tooltip"><![CDATA[]]></data>
+	<data name="zh_spotmap1665_tooltip"><![CDATA[]]></data>
+	<data name="zh_spotmap1666_tooltip"><![CDATA[]]></data>
+	<data name="zh_spotmap1667_tooltip"><![CDATA[]]></data>
+	<data name="zh_spotmap1668_tooltip"><![CDATA[]]></data>
+
+
+
+
+  <data name="zh_controlBar_iplayVideoTip"><![CDATA[播放]]></data>
+  <data name="zh_controlBar_ipauseVideoTip"><![CDATA[暂停]]></data>
+  <data name="zh_controlBar_iprevSceneTip"><![CDATA[上一个场景]]></data>
+  <data name="zh_controlBar_inextSceneTip"><![CDATA[下一个场景]]></data>
+  <data name="zh_controlBar_imoveLeftTip"><![CDATA[左移]]></data>
+  <data name="zh_controlBar_imoveRightTip"><![CDATA[右移]]></data>
+  <data name="zh_controlBar_imoveUpTip"><![CDATA[上移]]></data>
+  <data name="zh_controlBar_imoveDownTip"><![CDATA[下移]]></data>
+  <data name="zh_controlBar_iopenFsTip"><![CDATA[进入全屏]]></data>
+  <data name="zh_controlBar_icloseFsTip"><![CDATA[退出全屏]]></data>
+  <data name="zh_controlBar_iautorotateOnTip"><![CDATA[开始自动旋转]]></data>
+  <data name="zh_controlBar_iautorotateOffTip"><![CDATA[停止自动旋转]]></data>
+  <data name="zh_controlBar_isoundsOnTip"><![CDATA[播放声音]]></data>
+  <data name="zh_controlBar_isoundsOffTip"><![CDATA[停止声音]]></data>
+  <data name="zh_controlBar_igyroOnTip"><![CDATA[启用陀螺仪]]></data>
+  <data name="zh_controlBar_igyroOffTip"><![CDATA[禁用陀螺仪]]></data>
+  <data name="zh_controlBar_igyroNotTip"><![CDATA[陀螺仪不可用]]></data>
+  <data name="zh_controlBar_ienterVRTip"><![CDATA[VR模式]]></data>
+  <data name="zh_controlBar_ienterVRNotTip"><![CDATA[VR模式不可用]]></data>
+
+
+  <data name="zh_vr_setup_hmd0"><![CDATA[选择你的 HMD]]></data>
+  <data name="zh_vr_setup_advanced"><![CDATA[高级设置]]></data>
+  <data name="zh_vr_setup_title"><![CDATA[WEB VR设置]]></data>
+  <data name="zh_vr_setup_dvn1"><![CDATA[设备:]]></data>
+  <data name="zh_vr_setup_siz1"><![CDATA[屏幕尺寸:]]></data>
+  <data name="zh_vr_setup_ipd1"><![CDATA[集成产品开发:]]></data>
+  <data name="zh_vr_setup_hmd1"><![CDATA[头盔显示器:]]></data>
+  <data name="zh_vr_setup_hmd3"><![CDATA[自定义]]></data>
+  <data name="zh_vr_setup_cal"><![CDATA[校准陀螺仪]]></data>
+  <data name="zh_vr_setup_sav"><![CDATA[保存]]></data>
+  <data name="zh_vr_setup_rst"><![CDATA[重置]]></data>
+  <data name="zh_vr_setup_simple"><![CDATA[简单]]></data>
+  <data name="zh_vr_setup_cls"><![CDATA[关闭]]></data>
+  <data name="zh_vr_setup_m31"><![CDATA[头盔显示器设置]]></data>
+  <data name="zh_vr_setup_fov1"><![CDATA[FOV:]]></data>
+  <data name="zh_vr_setup_dst1"><![CDATA[失真:]]></data>
+  <data name="zh_vr_setup_d2tx"><![CDATA[失真度2:]]></data>
+  <data name="zh_vr_setup_vig1"><![CDATA[小插图:]]></data>
+  <data name="zh_vr_setup_cac1"><![CDATA[色差:]]></data>
+  <data name="zh_vr_setup_olp1"><![CDATA[重叠:]]></data>
+  <data name="zh_vr_setup_m35"><![CDATA[返回]]></data>
+  <data name="zh_vr_setup_cb1"><![CDATA[陀螺仪]]></data>
+  <data name="zh_vr_setup_cb2"><![CDATA[将设备放在一个平面上，[br]或者稳定的表面和标签上，[br]以纠正一个陀螺仪偏移。]]></data>
+  <data name="zh_vr_setup_cb3"><![CDATA[校准]]></data>
+  <data name="zh_vr_setup_cb4"><![CDATA[重置]]></data>
+  <data name="zh_vr_setup_cb5"><![CDATA[返回]]></data>
+  <data name="zh_vr_setup_cb6"><![CDATA[校准...]]></data>
+  <data name="zh_vr_setup_cb7"><![CDATA[校准成功]]></data>
+  <data name="zh_vr_setup_cb8"><![CDATA[校准失败]]></data>
+  <data name="zh_vr_setup_unavailable"><![CDATA[VR模式[br]在您的设备上不可用]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <data name="zh_spotpoint626_description"><![CDATA[<a href="http://weibo.com/u/2832657662" target="_blank">http://weibo.com/u/2832657662</a>]]></data>
+
+</krpano>
