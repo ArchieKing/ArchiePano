@@ -30,9 +30,9 @@
 # 佛山农商银行
 [家具情报站](https://archieking.github.io/ArchiePano/RCB)
 
-# 塞莱拉
+# 广州赛莱拉干细胞科技股份有限公司
 ![](https://archieking.github.io/src/pics/SaiLaiLa.jpg)
-[首页](https://archieking.github.io/ArchiePano/SaiLaiLa/index/)
+[走进赛莱拉](https://archieking.github.io/ArchiePano/SaiLaiLa/index/)
 
 # 中信家乐福
 [中信家乐福联名卡](https://archieking.github.io/ArchiePano/shop2)
