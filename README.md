@@ -1,2 +1,2 @@
 # ArchiePano
- 炫创炫正VR案例
+ Archie个人VR案例，版权所在，请勿商用
