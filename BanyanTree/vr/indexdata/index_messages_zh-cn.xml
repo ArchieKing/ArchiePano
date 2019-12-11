@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="zh-cn_project_title"><![CDATA[悦榕庄，你的感官圣殿 Banyan Tree Lijiang Powered by Hangkei A.I.]]></data>
+  <data name="zh-cn_project_author_name"><![CDATA[Hangkei A.I. Technology Co,. Ltd.]]></data>
+  <data name="zh-cn_project_author_url"><![CDATA[http://www.hangkei.ai]]></data>
+
+
+
+  <data name="zh-cn_pano53_title"><![CDATA[丽江悦榕庄]]></data>
+
+
+  <data name="zh-cn_pano51_title"><![CDATA[悦榕庄，你的感官圣殿]]></data>
+
+
+  <data name="zh-cn_pano49_title"><![CDATA[花园]]></data>
+
+  <data name="zh-cn_panogroup142_title"><![CDATA[三卧室山景泳池别墅]]></data>
+
+  <data name="zh-cn_pano55_title"><![CDATA[泳池-三卧室山景泳池别墅]]></data>
+  <data name="zh-cn_pano58_title"><![CDATA[饭厅-三卧室山景泳池别墅]]></data>
+  <data name="zh-cn_pano57_title"><![CDATA[中卧-三卧室山景泳池别墅]]></data>
+  <data name="zh-cn_pano59_title"><![CDATA[小卧-三卧室山景泳池别墅]]></data>
+  <data name="zh-cn_pano60_title"><![CDATA[客厅-三卧室山景泳池别墅]]></data>
+  <data name="zh-cn_pano56_title"><![CDATA[主卧-三卧室山景泳池别墅]]></data>
+  <data name="zh-cn_pano61_title"><![CDATA[浴室-三卧室山景泳池别墅]]></data>
+
+
+  <data name="zh-cn_pano65_title"><![CDATA[山景套房]]></data>
+
+
+  <data name="zh-cn_pano64_title"><![CDATA[花园套房]]></data>
+
+  <data name="zh-cn_panogroup78_title"><![CDATA[按摩池别墅]]></data>
+
+  <data name="zh-cn_pano62_title"><![CDATA[主卧-按摩池别墅]]></data>
+  <data name="zh-cn_pano63_title"><![CDATA[按摩池-按摩池别墅]]></data>
+
+
+
+
+
+
+  <data name="zh-cn_button1tooltip"><![CDATA[]]></data>
+  <data name="zh-cn_button1onclick102506openurlwebsiteurl"><![CDATA[../ar/]]></data>
+  <data name="zh-cn_button2tooltip"><![CDATA[]]></data>
+  <data name="zh-cn_button2onclick102277openurlwebsiteurl"><![CDATA[https://mobile.synxis.com/?chain=17604&Adult=2&Child=0&Rooms=1&locale=zh-CN&Hotel=64253&shell=&Rate=&Arrive=1-007%E6%9C%8823%E5%8F%B7-2018&Depart=1-0undefined-2018]]></data>
+
+
+  <data name="zh-cn_vr_setup_hmd0"><![CDATA[SELECT YOUR HMD]]></data>
+  <data name="zh-cn_vr_setup_advanced"><![CDATA[ADVANCED SETTINGS]]></data>
+  <data name="zh-cn_vr_setup_title"><![CDATA[WEB VR SETTINGS]]></data>
+  <data name="zh-cn_vr_setup_dvn1"><![CDATA[Device:]]></data>
+  <data name="zh-cn_vr_setup_siz1"><![CDATA[Screen size:]]></data>
+  <data name="zh-cn_vr_setup_ipd1"><![CDATA[IPD:]]></data>
+  <data name="zh-cn_vr_setup_hmd1"><![CDATA[HMD:]]></data>
+  <data name="zh-cn_vr_setup_hmd3"><![CDATA[Customize]]></data>
+  <data name="zh-cn_vr_setup_cal"><![CDATA[Calibrate gyroscope]]></data>
+  <data name="zh-cn_vr_setup_sav"><![CDATA[SAVE]]></data>
+  <data name="zh-cn_vr_setup_rst"><![CDATA[RESET]]></data>
+  <data name="zh-cn_vr_setup_simple"><![CDATA[SIMPLE]]></data>
+  <data name="zh-cn_vr_setup_cls"><![CDATA[CLOSE]]></data>
+  <data name="zh-cn_vr_setup_m31"><![CDATA[HMD SETTINGS]]></data>
+  <data name="zh-cn_vr_setup_fov1"><![CDATA[FOV:]]></data>
+  <data name="zh-cn_vr_setup_dst1"><![CDATA[Distortion:]]></data>
+  <data name="zh-cn_vr_setup_d2tx"><![CDATA[Distortion 2:]]></data>
+  <data name="zh-cn_vr_setup_vig1"><![CDATA[Vignette:]]></data>
+  <data name="zh-cn_vr_setup_cac1"><![CDATA[Chromatic aberration:]]></data>
+  <data name="zh-cn_vr_setup_olp1"><![CDATA[Overlap:]]></data>
+  <data name="zh-cn_vr_setup_m35"><![CDATA[RETURN]]></data>
+  <data name="zh-cn_vr_setup_cb1"><![CDATA[GYROSCOPE]]></data>
+  <data name="zh-cn_vr_setup_cb2"><![CDATA[Place the device on a flat and[br]stable surface and tab CALIBRATE[br]to correct a gyroscope drifting.]]></data>
+  <data name="zh-cn_vr_setup_cb3"><![CDATA[CALIBRATE]]></data>
+  <data name="zh-cn_vr_setup_cb4"><![CDATA[RESET]]></data>
+  <data name="zh-cn_vr_setup_cb5"><![CDATA[RETURN]]></data>
+  <data name="zh-cn_vr_setup_cb6"><![CDATA[Calibrating...]]></data>
+  <data name="zh-cn_vr_setup_cb7"><![CDATA[Successful calibration]]></data>
+  <data name="zh-cn_vr_setup_cb8"><![CDATA[Calibration failed]]></data>
+  <data name="zh-cn_vr_setup_unavailable"><![CDATA[VR mode[br]is unavailable on your device]]></data>
+
+
+  <data name="zh-cn_project_description"><![CDATA[Hangkei A.I. Technology Co,. Ltd.]]></data>
+
+
+  <data name="zh-cn_pano53_description"><![CDATA[丽江悦榕庄 Powered by Hangkei A.I.]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</krpano>

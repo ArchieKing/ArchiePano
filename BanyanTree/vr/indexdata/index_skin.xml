@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.19">
+
+    
+  <!-- Spot Style - go -->
+  <style name="Icongo"
+         url="%FIRSTXML%/spots/hotspot_image_sequence_user_defaultpoint0.png"
+         visible="false"
+         frame="0"
+         lastframe="12"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIcongo"
+         onout="onoutIcongo"
+
+
+         />
+
+  <action name="onhoverIcongo">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIcongo">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - goTOP -->
+  <style name="IcongoTOP"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint3.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIcongoTOP"
+         onout="onoutIcongoTOP"
+
+
+         />
+
+  <action name="onhoverIcongoTOP">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIcongoTOP">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - fromTOP  -->
+  <style name="IconfromTOP"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint4.png"
+         visible="false"
+         frame="0"
+         lastframe="9"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconfromTOP"
+         onout="onoutIconfromTOP"
+
+
+         />
+
+  <action name="onhoverIconfromTOP">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconfromTOP">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Loading transition -->
+<!-- id : blendmode -->
+<!-- ********** -->
+	<action name="blendmode_prepareblendmode" autorun="preinit">
+
+		if(device.html5 AND device.webgl,
+
+			set(ptblendmode, 'ZOOMBLEND(1, 2.0, easeInOutSine)');
+
+		,
+			set(ptblendmode, 'BLEND(1.0, easeInCubic)');
+		);
+
+	</action>
+
+<!-- ********** -->
+<!-- Title -->
+<!-- id : title -->
+<!-- ********** -->
+
+  <events name="title_events" 
+    onTourStart="showtitle();"
+    onnewpano="updatetitle();"
+    changetourlanguage="changeLanguagetitle"
+    keep="true" />
+
+  <action name="showtitle">set(layer[title].visible, true );</action>
+
+  <action name="changeLanguagetitle">
+    updatetitle();
+  </action>
+
+  <action name="updatetitle">
+    getmessage(layer[title].html, get(scene[get(xml.scene)].titleid));
+    escape(layer[title].html);
+  </action>
+  <layer name="title" keep="true" zorder="2"
+         url="%FIRSTXML%/graphics/textfield.swf"
+         align="topright" x="10" y="10" width="100%" autoheight="true"
+         background="false" capture="false" handcursor="false" selectable="false" enabled="false"
+         borderwidth="0"
+         alpha="1"
+         visible="false"
+         textshadow="1"
+         css="text-align:right;
+              color:#ffffff;
+              font-family:Arial;
+              font-weight:bold;
+              font-size:18px;"/>
+
+<!-- ********** -->
+<!-- ar -->
+<!-- id : button1 -->
+<!-- ********** -->
+
+  <layer name="button1"
+         keep="true"
+         url="%FIRSTXML%/graphics/button1/ar.png" 
+         align="bottom"
+         x="-74"
+         y="10"
+         zorder="3"
+         visible="false"
+         onclick="button1OnClick"
+         />
+  <action name="button1OnClick">getmessage(urltoopen,button1onclick102506openurlwebsiteurl);openurl(get(urltoopen),_self);
+
+
+  </action>
+
+  <events name="button1events" 
+    onTourStart="showbutton1();"
+    hidetourcontrols="hidebutton1();" 
+    showtourcontrols="showbutton1();" 
+    keep="true" />
+  <action name="hidebutton1">set(layer[button1].visible, false);</action>
+  <action name="showbutton1">if(tour_displaycontrols,set(layer[button1].visible, true);,hidebutton1(););</action>
+
+
+<!-- ********** -->
+<!-- book -->
+<!-- id : button2 -->
+<!-- ********** -->
+
+  <layer name="button2"
+         keep="true"
+         url="%FIRSTXML%/graphics/button2/book.png" 
+         align="bottom"
+         x="74"
+         y="10"
+         zorder="4"
+         visible="false"
+         onclick="button2OnClick"
+         />
+  <action name="button2OnClick">getmessage(urltoopen,button2onclick102277openurlwebsiteurl);openurl(get(urltoopen),_blank);
+
+
+  </action>
+
+  <events name="button2events" 
+    onTourStart="showbutton2();"
+    hidetourcontrols="hidebutton2();" 
+    showtourcontrols="showbutton2();" 
+    keep="true" />
+  <action name="hidebutton2">set(layer[button2].visible, false);</action>
+  <action name="showbutton2">if(tour_displaycontrols,set(layer[button2].visible, true);,hidebutton2(););</action>
+
+
+</krpano>
