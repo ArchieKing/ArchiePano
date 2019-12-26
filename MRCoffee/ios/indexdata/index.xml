@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.19"
+        onstart="startup"
+        logkey="false"
+        showerrors="false"
+        bgcolor="#ffffff"
+        projectfloorplanurl=""
+        projecttitleid="project_title"
+        projectdescriptionid="project_description">
+
+
+  <security cors="">
+  </security>
+
+  <krpano tour_firststartactiondone="false" tour_firstlittleplanet="true"/>
+  <events name="startbehavioursevents" onxmlcomplete="startbehavioursxmlcompleteaction();" onloadcomplete="startLittlePlanetIntroEffect();" keep="true"/>
+
+  <include url="%FIRSTXML%/index_skin.xml"/>
+  <include url="%FIRSTXML%/index_core.xml"/>
+  <include url="%FIRSTXML%/index_messages_en.xml"/>
+
+  <action name="startup">
+    preloadSounds();
+
+    if (s !== null, if (startscene === null, set(startscene, get(s));); );
+    if (startscene === null,
+      set(startscene, pano52);
+    );
+    mainloadsceneStartup(get(startscene));
+    if (h !== null,
+      if (v !== null,
+        if (f !== null,
+          lookat(get(h), get(v), get(f));
+         ,
+          lookat(get(h), get(v));
+        );
+      ,
+        if (f !== null,
+          lookat(get(h), get(view.vlookat), get(f));
+         ,
+          lookat(get(h), get(view.vlookat));
+        );
+      );
+    ,
+      if (v !== null,
+        if (f !== null,
+          lookat(get(view.hlookat), get(v), get(f));
+         ,
+          lookat(get(view.hlookat), get(v));
+        );
+      ,
+        if (f !== null,
+          lookat(get(view.hlookat), get(view.vlookat), get(f));
+        );
+      );
+    );
+  </action>
+
+
+  
+  
+
+
+
+<scene name="pano52"
+       heading="0"
+       thumburl="%FIRSTXML%/mr_coffe2_52/thumbnail.png"
+       backgroundsound=""
+       backgroundsoundloops="0"
+       haslocalsounds="false"
+       haspolygons="false"
+       titleid="pano52_title"
+       descriptionid="pano52_description"
+       multires="true"
+       planar="false"
+       full360="true"
+       video="false"
+       seen="false">
+
+    <autorotate horizon="0.000000" tofov="90.000000" waittime="1" speed="5"/>
+
+
+    <panoview h="0.000000" v="0.000000" fov="90.000000" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
+
+    <view fisheye="0"
+          limitview="range"
+          hlookatmin="-180"
+          hlookatmax="180"
+          vlookatmin="-90"
+          vlookatmax="90"
+          maxpixelzoom="1.0"
+          fovtype="VFOV"
+          fovmax="90"
+          fov="90.000000"
+          hlookat="0.000000"
+          vlookat="0.000000"/>
+
+    <preview url="%FIRSTXML%/mr_coffe2_52/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
+
+
+    <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="1536" tiledimageheight="1536">
+          <front url="mr_coffe2_52/0/1/%v_%u.jpg"/>
+          <right url="mr_coffe2_52/1/1/%v_%u.jpg"/>
+          <back  url="mr_coffe2_52/2/1/%v_%u.jpg"/>
+          <left  url="mr_coffe2_52/3/1/%v_%u.jpg"/>
+          <up    url="mr_coffe2_52/4/1/%v_%u.jpg"/>
+          <down  url="mr_coffe2_52/5/1/%v_%u.jpg"/>
+      </level>
+      <level tiledimagewidth="1024" tiledimageheight="1024">
+          <front url="mr_coffe2_52/0/0/%v_%u.jpg"/>
+          <right url="mr_coffe2_52/1/0/%v_%u.jpg"/>
+          <back  url="mr_coffe2_52/2/0/%v_%u.jpg"/>
+          <left  url="mr_coffe2_52/3/0/%v_%u.jpg"/>
+          <up    url="mr_coffe2_52/4/0/%v_%u.jpg"/>
+          <down  url="mr_coffe2_52/5/0/%v_%u.jpg"/>
+      </level>
+    </image>
+      <image type="CUBE" devices="androidstock.and.no-webgl">
+        <front url="mr_coffe2_52/mobile/0.jpg"/>
+        <right url="mr_coffe2_52/mobile/1.jpg"/>
+        <back  url="mr_coffe2_52/mobile/2.jpg"/>
+        <left  url="mr_coffe2_52/mobile/3.jpg"/>
+        <up    url="mr_coffe2_52/mobile/4.jpg"/>
+        <down  url="mr_coffe2_52/mobile/5.jpg"/>
+      </image>
+
+
+
+
+
+
+
+
+
+
+
+  <hotspot name="spotpoint55"
+           ath="60.558789" atv="8.181818"
+           style="IconDefaultPointSpotStyle"
+           tag="point"
+           descriptionid=""
+           onclick="onclickspotpoint55"
+           tooltip="spotpoint55_tooltip"
+           />
+  <hotspot name="spotpoint55" devices="flash" zorder="3"/>
+  <hotspot name="spotpoint55" devices="html5" zorder="3" zorder2="1"/>
+  <action name="onclickspotpoint55">
+  
+        mainloadscene(pano10);lookat(-98.100000, -7.200000, 90.000000);
+
+
+  </action>
+
+
+
+
+
+  <hotspot name="spotpoint68"
+           ath="122.691236" atv="-4.889882"
+           style="Iconhongbeicaidan"
+           tag="point"
+           descriptionid=""
+           onclick="onclickspotpoint68"
+           />
+  <hotspot name="spotpoint68" devices="flash" zorder="3"/>
+  <hotspot name="spotpoint68" devices="html5" zorder="3" zorder2="1"/>
+  <action name="onclickspotpoint68">
+  
+displayImage(%FIRSTXML%/spots/menu.jpg
+             ,center,0,0
+             ,'',''
+             ,false
+             ,true
+             ,true
+             ,true
+             ,000000
+             ,0.80000000000000004);
+
+  </action>
+
+
+
+
+
+  <hotspot name="spotpoint335"
+           ath="-24.516880" atv="1.048951"
+           style="Icon智慧城"
+           tag="point"
+           descriptionid=""
+           onclick="onclickspotpoint335"
+           />
+  <hotspot name="spotpoint335" devices="flash" zorder="3"/>
+  <hotspot name="spotpoint335" devices="html5" zorder="3" zorder2="1"/>
+  <action name="onclickspotpoint335">
+  getmessage(urltoopen,spotpoint335openurlwebsiteurl);openurl(get(urltoopen),_blank);
+
+
+  </action>
+
+
+
+  <action name="hidepanopointspots">
+    set(hotspot[spotpoint55].visible, false);
+    set(hotspot[spotpoint68].visible, false);
+    set(hotspot[spotpoint335].visible, false);
+  </action>
+  <action name="showpanopointspots">
+    set(hotspot[spotpoint55].visible, true);
+    set(hotspot[spotpoint68].visible, true);
+    set(hotspot[spotpoint335].visible, true);
+  </action>
+  <events name="pano52stopanimatedspots" onremovepano="stopspotanimation(spotpoint55);" />
+
+
+  <action name="showpanospotsaction">
+    resumeTourSoundsActions(true,false,false,false,true);
+    if (tour_displayspots,
+    showpanopointspots();
+
+
+
+
+    );
+  </action>
+  <action name="hidepanospotsaction">
+    pauseTourSoundsActions(true,false,false,false,true);
+    hidepanopointspots();
+
+
+
+
+  </action>
+
+
+  <action name="setzorder2onstandardspots">
+    if (device.html5,
+      ifnot (device.desktop,
+
+
+        set(hotspot[spotpoint55].zorder2, %1);
+
+        set(hotspot[spotpoint68].zorder2, %1);
+
+        set(hotspot[spotpoint335].zorder2, %1);
+
+      );
+    );
+  </action>
+
+
+</scene>
+
+
+  
+  
+
+
+
+<scene name="pano10"
+       heading="0"
+       thumburl="%FIRSTXML%/mr_10/thumbnail.png"
+       backgroundsound=""
+       backgroundsoundloops="0"
+       haslocalsounds="true"
+       haspolygons="false"
+       titleid="pano10_title"
+       descriptionid="pano10_description"
+       multires="true"
+       planar="false"
+       full360="true"
+       video="false"
+       seen="false">
+
+    <autorotate horizon="0.000000" tofov="90.000000" waittime="1" speed="5"/>
+
+
+    <panoview h="0.000000" v="0.000000" fov="90.000000" hmin="-180" hmax="180" vmin="-90" vmax="90" fovmax="90" />
+
+    <view fisheye="0"
+          limitview="range"
+          hlookatmin="-180"
+          hlookatmax="180"
+          vlookatmin="-90"
+          vlookatmax="90"
+          maxpixelzoom="1.0"
+          fovtype="VFOV"
+          fovmax="90"
+          fov="90.000000"
+          hlookat="0.000000"
+          vlookat="0.000000"/>
+
+    <preview url="%FIRSTXML%/mr_10/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
+
+
+    <image type="CUBE" multires="true" baseindex="0" tilesize="512" devices="!androidstock|webgl">
+      <level tiledimagewidth="1536" tiledimageheight="1536">
+          <front url="mr_10/0/1/%v_%u.jpg"/>
+          <right url="mr_10/1/1/%v_%u.jpg"/>
+          <back  url="mr_10/2/1/%v_%u.jpg"/>
+          <left  url="mr_10/3/1/%v_%u.jpg"/>
+          <up    url="mr_10/4/1/%v_%u.jpg"/>
+          <down  url="mr_10/5/1/%v_%u.jpg"/>
+      </level>
+      <level tiledimagewidth="1024" tiledimageheight="1024">
+          <front url="mr_10/0/0/%v_%u.jpg"/>
+          <right url="mr_10/1/0/%v_%u.jpg"/>
+          <back  url="mr_10/2/0/%v_%u.jpg"/>
+          <left  url="mr_10/3/0/%v_%u.jpg"/>
+          <up    url="mr_10/4/0/%v_%u.jpg"/>
+          <down  url="mr_10/5/0/%v_%u.jpg"/>
+      </level>
+    </image>
+      <image type="CUBE" devices="androidstock.and.no-webgl">
+        <front url="mr_10/mobile/0.jpg"/>
+        <right url="mr_10/mobile/1.jpg"/>
+        <back  url="mr_10/mobile/2.jpg"/>
+        <left  url="mr_10/mobile/3.jpg"/>
+        <up    url="mr_10/mobile/4.jpg"/>
+        <down  url="mr_10/mobile/5.jpg"/>
+      </image>
+
+
+
+
+
+
+
+  <krpano videospots_playing="0" />
+
+
+  <hotspot name="spotvideo14"
+           style="RectVideoDefaultVideoSpotStyle"
+           tag="video"
+           descriptionid=""
+           ath="0.904169" atv="6.046441"
+           width="1123"
+           height="628"
+           rx="0.28566877960874898"
+           ry="-0.63917822789794121"
+           rz="0.021132680641791059"
+
+           videocontrolplay="spotvideo14_playbtn"
+           videocontrolpause="spotvideo14_pausebtn"
+           onvideoreadycontrols="onvideoreadycontrolsspotvideo14"
+           onclick="onclickspotvideo14_stateVideo();onclickspotvideo14_controls();onclickspotvideo14(true);"
+           onvideoreadyspecific="onvideoreadyspotvideo14"
+           posterurl="%FIRSTXML%/spots/mr38738241801280_vr.jpg"
+         />
+  <action name="onvideoreadycontrolsspotvideo14">
+    onclickspotvideo14_controls();
+  </action>
+  <hotspot name="spotvideo14_playbtn"
+    ath="0.904169"
+    atv="6.046441"
+    width="50"
+    height="50"
+    alpha="0.5"
+    url="%FIRSTXML%/graphics/videoplayer_play_button.png"
+    visible="false"
+    zorder="3"
+    zorder2="1"
+    capture="false"
+    enabled="false"
+    />
+  <hotspot name="spotvideo14_pausebtn"
+    ath="0.904169"
+    atv="6.046441"
+    width="50"
+    height="50"
+    alpha="0.5"
+    url="%FIRSTXML%/graphics/videoplayer_pause_button.png"
+    visible="false"
+    zorder="3"
+    zorder2="1"
+    capture="false"
+    enabled="false"
+     />
+  <hotspot name="spotvideo14" devices="flash" zorder="2"/>
+  <hotspot name="spotvideo14" devices="html5" zorder="2"/>
+  <hotspot name="spotvideo14" videourl="%FIRSTXML%/spots/mr38738241801280new.mp4" devices="desktop" onunsupported="trace('not supported');" />
+  <hotspot name="spotvideo14" videourl="%FIRSTXML%/spots/mr38738241801280new.mp4" devices="tablet.or.mobile" onunsupported="trace('not supported');" />
+  <hotspot name="spotvideo14Loader"
+           style="RectVideoDefaultVideoSpotStyleLoader"
+           ath="0.904169" atv="6.046441"
+           rx="0.28566877960874898"
+           ry="-0.63917822789794121"
+           rz="0.021132680641791059"
+           activated="false"
+           onloaded="onloadedspotvideo14Loader"
+           />
+
+  <action name="onclickspotvideo14_stateVideo">
+    if(hotspot[spotvideo14].ispaused,
+      set(hotspot[spotvideo14].stateVideo, 'playing');
+    ,
+      set(hotspot[spotvideo14].stateVideo, 'paused');
+    );
+  </action>
+  <action name="onclickspotvideo14_controls">
+    if(hotspot[spotvideo14].stateVideo == 'playing',
+      
+      set(hotspot[spotvideo14_playbtn].visible, false);
+      set(hotspot[spotvideo14_pausebtn].visible, false);
+    ,
+      
+      set(hotspot[spotvideo14_playbtn].visible, true);
+      set(hotspot[spotvideo14_pausebtn].visible, false);
+    );
+  </action>
+  <action name="onclickspotvideo14">
+    if (hotspot[spotvideo14].alpha == 0, set(hotspot[spotvideo14].alpha, 1););
+
+    if(%1,
+      if(hotspot[spotvideo14].pauseothersounds,
+        if(hotspot[spotvideo14].stateVideo == 'playing',
+          inc(videospots_playing);
+          pauseTourSoundsActions(true,true,true,true,true);
+
+          if (tour_soundson,
+            div(volume, tour_soundsvolume, 100);
+            if(device.flash OR (device.webgl AND !device.ios),
+              set(hotspot[spotvideo14].volume, get(volume));
+            ,
+              ifnot(device.ios,
+                js(kpanotour.Sounds.startVideosSounds(get(volume)));
+              );
+            );
+          );
+        ,
+
+          if (tour_soundson,
+            if(device.flash OR (device.webgl AND !device.ios),
+              set(hotspot[spotvideo14].volume, 0);
+            ,
+              ifnot(device.ios,
+                js(kpanotour.Sounds.stopVideosSounds());
+              );
+            );
+          );
+          dec(videospots_playing);
+          resumeTourSoundsActions(true,true,true,true,true);
+        );
+      );
+    );
+    hotspot[spotvideo14].togglepause();
+
+  </action>
+
+  <action name="onloadedspotvideo14Loader">
+    animatevideospotloaderRectVideoDefaultVideoSpotStyle(spotvideo14Loader, spotvideo14call);
+  </action>
+  <action name="onvideoreadyspotvideo14">
+    stopvideospotloaderanimationRectVideoDefaultVideoSpotStyle(spotvideo14Loader, spotvideo14call);
+  </action>
+
+
+  <action name="hidepanovideospots">
+    if (hotspot[spotvideo14Loader] !== null,
+      set(hotspot[spotvideo14Loader].activated, false);
+      set(hotspot[spotvideo14Loader].visible, false);
+    );
+    if (hotspot[spotvideo14_playbtn] !== null,
+      set(hotspot[spotvideo14_playbtn].visible, false);
+      set(hotspot[spotvideo14_pausebtn].visible, false);
+    );
+    if (hotspot[spotvideo14] !== null,
+      set(hotspot[spotvideo14].visible, false);
+
+      ifnot(hotspot[spotvideo14].alpha == 0,
+        if (hotspot[spotvideo14].isvideoready,
+          if(hotspot[spotvideo14].stateVideo == 'playing',
+            dec(videospots_playing);
+            onclickspotvideo14(false);
+            if(hotspot[spotvideo14].pauseothersounds,
+              resumeTourSoundsActions(false,true,true,true,true);
+            );
+          );
+        );
+      );
+    );
+  </action>
+  <action name="showpanovideospots">
+    if (hotspot[spotvideo14Loader] !== null,
+      set(hotspot[spotvideo14Loader].activated, true);
+      set(hotspot[spotvideo14Loader].visible, true);
+    );
+    if (hotspot[spotvideo14] !== null,
+      set(hotspot[spotvideo14].visible, true);
+
+      ifnot(hotspot[spotvideo14].alpha == 0,
+        if (hotspot[spotvideo14].isvideoready,
+          if(hotspot[spotvideo14].stateVideo == 'playing',
+            inc(videospots_playing);
+            onclickspotvideo14(false);
+            if(hotspot[spotvideo14].pauseothersounds,
+              pauseTourSoundsActions(true,true,true,true,true);
+            );
+
+            if (tour_soundson,
+              div(volume, tour_soundsvolume, 100);
+              if(device.flash OR (device.webgl AND !device.ios),
+                set(hotspot[spotvideo14].volume, get(volume));
+              ,
+                ifnot(device.ios,
+                  js(kpanotour.Sounds.startVideosSounds(get(volume)));
+                );
+              );
+            );
+          );
+        );
+        onclickspotvideo14_controls();
+      ,
+        if (hotspot[spotvideo14].isvideoready,
+          onclickspotvideo14_controls();
+        );
+      );
+    );
+  </action>
+  <events name="pano10videospotsevents" 
+    onxmlcomplete="set(hotspot[spotvideo14].canstart, false);" 
+    onloadcomplete="if(panovideospotsstate,set(hotspot[spotvideo14].canstart, true););" 
+    onTourStart="if(panovideospotsstate,set(hotspot[spotvideo14].canstart, true););" 
+    playtoursoundsevent="if(hotspot[spotvideo14].pauseothersounds,if(hotspot[spotvideo14].stateVideo == 'playing',pauseTourSoundsActions(false,true,true,true,true);););" />
+
+
+
+
+
+  <hotspot name="spotpoint54"
+           ath="160.157511" atv="2.368444"
+           style="IconDefaultPointSpotStyle"
+           tag="point"
+           descriptionid=""
+           onclick="onclickspotpoint54"
+           tooltip="spotpoint54_tooltip"
+           />
+  <hotspot name="spotpoint54" devices="flash" zorder="3"/>
+  <hotspot name="spotpoint54" devices="html5" zorder="3" zorder2="1"/>
+  <action name="onclickspotpoint54">
+  
+        mainloadscene(pano52);lookat(-0.077310, -1.555380, 90.000000);
+
+
+  </action>
+
+
+
+
+
+  <hotspot name="spotpoint71"
+           ath="61.864550" atv="16.464418"
+           style="Iconquxiadan"
+           tag="point"
+           descriptionid=""
+           onclick="onclickspotpoint71"
+           />
+  <hotspot name="spotpoint71" devices="flash" zorder="3"/>
+  <hotspot name="spotpoint71" devices="html5" zorder="3" zorder2="1"/>
+  <action name="onclickspotpoint71">
+  getmessage(urltoopen,spotpoint71openurlwebsiteurl);openurl(get(urltoopen),_blank);
+
+
+  </action>
+
+
+
+
+
+  <hotspot name="spotpoint72"
+           ath="-59.055119" atv="1.421099"
+           style="Iconcaidan"
+           tag="point"
+           descriptionid=""
+           onclick="onclickspotpoint72"
+           />
+  <hotspot name="spotpoint72" devices="flash" zorder="3"/>
+  <hotspot name="spotpoint72" devices="html5" zorder="3" zorder2="1"/>
+  <action name="onclickspotpoint72">
+  
+displayImage(%FIRSTXML%/spots/menu.jpg
+             ,center,0,0
+             ,'',''
+             ,false
+             ,true
+             ,true
+             ,true
+             ,000000
+             ,0.80000000000000004);
+
+  </action>
+
+
+
+
+
+  <hotspot name="spotpoint336"
+           ath="-94.505239" atv="1.048951"
+           style="Icon智慧城"
+           tag="point"
+           descriptionid=""
+           onclick="onclickspotpoint336"
+           />
+  <hotspot name="spotpoint336" devices="flash" zorder="3"/>
+  <hotspot name="spotpoint336" devices="html5" zorder="3" zorder2="1"/>
+  <action name="onclickspotpoint336">
+  getmessage(urltoopen,spotpoint336openurlwebsiteurl);openurl(get(urltoopen),_blank);
+
+
+  </action>
+
+
+
+  <action name="hidepanopointspots">
+    set(hotspot[spotpoint54].visible, false);
+    set(hotspot[spotpoint71].visible, false);
+    set(hotspot[spotpoint72].visible, false);
+    set(hotspot[spotpoint336].visible, false);
+  </action>
+  <action name="showpanopointspots">
+    set(hotspot[spotpoint54].visible, true);
+    set(hotspot[spotpoint71].visible, true);
+    set(hotspot[spotpoint72].visible, true);
+    set(hotspot[spotpoint336].visible, true);
+  </action>
+  <events name="pano10stopanimatedspots" onremovepano="stopspotanimation(spotpoint54);" />
+
+
+  <action name="showpanospotsaction">
+    resumeTourSoundsActions(true,false,false,false,true);
+    if (tour_displayspots,
+    showpanopointspots();
+
+
+
+    showpanovideospots();
+
+    );
+  </action>
+  <action name="hidepanospotsaction">
+    pauseTourSoundsActions(true,false,false,false,true);
+    hidepanopointspots();
+
+
+
+    hidepanovideospots();
+
+  </action>
+
+  <action name="playpanolocalsounds">
+    if (tour_soundson,
+      div(volume, tour_soundsvolume, 100);
+
+      if(device.flash OR (device.webgl AND !device.ios),
+        set(hotspot[spotvideo14].volume, get(volume));
+      ,
+        ifnot(device.ios,
+          js(kpanotour.Sounds.startVideosSounds(get(volume)));
+        );
+      );
+     ,
+      if(device.flash OR (device.webgl AND !device.ios),
+        set(hotspot[spotvideo14].volume, 0); 
+      ,
+        ifnot(device.ios,
+          js(kpanotour.Sounds.stopVideosSounds());
+        );
+      );
+
+    );
+  </action>
+  <action name="stoppanolocalsounds">
+
+    if(device.flash OR (device.webgl AND !device.ios),
+      set(hotspot[spotvideo14].volume, 0);
+    ,
+      ifnot(device.ios,
+        js(kpanotour.Sounds.stopVideosSounds());
+      );
+    );
+
+  </action>
+  <action name="setpanolocalsoundsvolume">
+    if (tour_soundson,
+      div(volume, tour_soundsvolume, 100);
+
+      if(device.flash OR (device.webgl AND !device.ios),
+        set(hotspot[spotvideo14].volume, get(volume));
+      ,
+        ifnot(device.ios,
+          js(kpanotour.Sounds.startVideosSounds(get(volume)));
+        );
+      );
+
+    );
+  </action>
+  <action name="pausepanolocalsounds">
+
+    if(device.flash OR (device.webgl AND !device.ios),
+      set(hotspot[spotvideo14].volume, 0);
+    ,
+      ifnot(device.ios,
+        js(kpanotour.Sounds.stopVideosSounds());
+      );
+    );
+
+  </action>
+  <action name="resumepanolocalsounds">
+    if(tour_soundson,
+      div(volume, tour_soundsvolume, 100);
+
+      if(device.flash OR (device.webgl AND !device.ios),
+        set(hotspot[spotvideo14].volume, get(volume));
+      ,
+        ifnot(device.ios,
+          js(kpanotour.Sounds.startVideosSounds(get(volume)));
+        );
+      );
+    ,
+      if(device.flash OR (device.webgl AND !device.ios),
+        set(hotspot[spotvideo14].volume, 0);
+      ,
+        ifnot(device.ios,
+          js(kpanotour.Sounds.stopVideosSounds(get(volume)));
+        );
+      );
+
+    );
+  </action>
+  <events name="pano10soundsevents" onnewpano="if(plugin[soundinterface],if(plugin[soundinterface].started,playpanolocalsounds();););" />
+
+
+  <action name="setzorder2onstandardspots">
+    if (device.html5,
+      ifnot (device.desktop,
+
+
+        set(hotspot[spotpoint54].zorder2, %1);
+
+        set(hotspot[spotpoint71].zorder2, %1);
+
+        set(hotspot[spotpoint72].zorder2, %1);
+
+        set(hotspot[spotpoint336].zorder2, %1);
+
+      );
+    );
+  </action>
+
+
+</scene>
+
+
+  <krpano nofullspherepanoavailable="false" />
+
+
+
+</krpano>
+

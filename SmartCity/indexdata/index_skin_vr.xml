@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.19">
+
+    
+  <!-- Spot Style - 下一个 -->
+  <style name="Icon下一个"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_defaultpoint0.png"
+         visible="false"
+         onhover="onhoverIcon下一个"
+         onout="onoutIcon下一个"
+
+
+         />
+
+  <action name="onhoverIcon下一个">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIcon下一个">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+  <!-- unsupported kind of display : PointMap -->
+
+
+    
+  <!-- Spot Style - 智慧城 -->
+  <style name="Icon智慧城"
+         url="%FIRSTXML%/spots/_2493522478_user_defaultpoint1.png"
+         visible="false"
+         onhover="onhoverIcon智慧城"
+         onout="onoutIcon智慧城"
+
+
+         width="200"
+         height="prop"
+         />
+
+  <action name="onhoverIcon智慧城">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIcon智慧城">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - A栋 -->
+  <style name="IconA栋"
+         url="%FIRSTXML%/spots/a26635_user_defaultpoint2.png"
+         visible="false"
+         onhover="onhoverIconA栋"
+         onout="onoutIconA栋"
+
+
+         width="200"
+         height="prop"
+         />
+
+  <action name="onhoverIconA栋">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconA栋">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - D栋 -->
+  <style name="IconD栋"
+         url="%FIRSTXML%/spots/d26635_user_defaultpoint3.png"
+         visible="false"
+         onhover="onhoverIconD栋"
+         onout="onoutIconD栋"
+
+
+         width="200"
+         height="prop"
+         />
+
+  <action name="onhoverIconD栋">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconD栋">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - E栋 -->
+  <style name="IconE栋"
+         url="%FIRSTXML%/spots/e26635_user_defaultpoint4.png"
+         visible="false"
+         onhover="onhoverIconE栋"
+         onout="onoutIconE栋"
+
+
+         width="200"
+         height="prop"
+         />
+
+  <action name="onhoverIconE栋">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconE栋">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - D栋MR -->
+  <style name="IconD栋MR"
+         url="%FIRSTXML%/spots/mr_user_defaultpoint5.png"
+         visible="false"
+         onhover="onhoverIconD栋MR"
+         onout="onoutIconD栋MR"
+
+
+         width="200"
+         height="prop"
+         />
+
+  <action name="onhoverIconD栋MR">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconD栋MR">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - A栋管委会 -->
+  <style name="IconA栋管委会"
+         url="%FIRSTXML%/spots/_2299620250_user_defaultpoint6.png"
+         visible="false"
+         onhover="onhoverIconA栋管委会"
+         onout="onoutIconA栋管委会"
+
+
+         width="200"
+         height="prop"
+         />
+
+  <action name="onhoverIconA栋管委会">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconA栋管委会">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - D栋天磐 -->
+  <style name="IconD栋天磐"
+         url="%FIRSTXML%/spots/_30928_user_defaultpoint7.png"
+         visible="false"
+         onhover="onhoverIconD栋天磐"
+         onout="onoutIconD栋天磐"
+
+
+         width="200"
+         height="prop"
+         />
+
+  <action name="onhoverIconD栋天磐">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconD栋天磐">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - D栋捷泰 -->
+  <style name="IconD栋捷泰"
+         url="%FIRSTXML%/spots/_27888_user_defaultpoint8.png"
+         visible="false"
+         onhover="onhoverIconD栋捷泰"
+         onout="onoutIconD栋捷泰"
+
+
+         width="200"
+         height="prop"
+         />
+
+  <action name="onhoverIconD栋捷泰">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconD栋捷泰">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - D栋政务中心 -->
+  <style name="IconD栋政务中心"
+         url="%FIRSTXML%/spots/_211532001324515_user_defaultpoint9.png"
+         visible="false"
+         onhover="onhoverIconD栋政务中心"
+         onout="onoutIconD栋政务中心"
+
+
+         width="200"
+         height="prop"
+         />
+
+  <action name="onhoverIconD栋政务中心">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconD栋政务中心">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - D栋圈存 -->
+  <style name="IconD栋圈存"
+         url="%FIRSTXML%/spots/_23384_user_defaultpoint10.png"
+         visible="false"
+         onhover="onhoverIconD栋圈存"
+         onout="onoutIconD栋圈存"
+
+
+         width="200"
+         height="prop"
+         />
+
+  <action name="onhoverIconD栋圈存">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconD栋圈存">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - D栋好礼汇 -->
+  <style name="IconD栋好礼汇"
+         url="%FIRSTXML%/spots/_3103627719_user_defaultpoint11.png"
+         visible="false"
+         onhover="onhoverIconD栋好礼汇"
+         onout="onoutIconD栋好礼汇"
+
+
+         width="200"
+         height="prop"
+         />
+
+  <action name="onhoverIconD栋好礼汇">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconD栋好礼汇">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - D栋天选 -->
+  <style name="IconD栋天选"
+         url="%FIRSTXML%/spots/_36873_user_defaultpoint12.png"
+         visible="false"
+         onhover="onhoverIconD栋天选"
+         onout="onoutIconD栋天选"
+
+
+         width="200"
+         height="prop"
+         />
+
+  <action name="onhoverIconD栋天选">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconD栋天选">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - E栋高新 -->
+  <style name="IconE栋高新"
+         url="%FIRSTXML%/spots/_26032_user_defaultpoint13.png"
+         visible="false"
+         onhover="onhoverIconE栋高新"
+         onout="onoutIconE栋高新"
+
+
+         width="200"
+         height="prop"
+         />
+
+  <action name="onhoverIconE栋高新">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconE栋高新">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - A栋管委会info -->
+  <style name="IconA栋管委会info"
+         url="%FIRSTXML%/spots/_2299620250info_user_defaultpoint14.png"
+         visible="false"
+         onhover="onhoverIconA栋管委会info"
+         onout="onoutIconA栋管委会info"
+
+
+         width="230"
+         height="prop"
+         />
+
+  <action name="onhoverIconA栋管委会info">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconA栋管委会info">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - D栋MRInfo -->
+  <style name="IconD栋MRInfo"
+         url="%FIRSTXML%/spots/mrinfo_user_defaultpoint15.png"
+         visible="false"
+         onhover="onhoverIconD栋MRInfo"
+         onout="onoutIconD栋MRInfo"
+
+
+         width="230"
+         height="prop"
+         />
+
+  <action name="onhoverIconD栋MRInfo">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconD栋MRInfo">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - D栋捷泰Info -->
+  <style name="IconD栋捷泰Info"
+         url="%FIRSTXML%/spots/_27888info_user_defaultpoint16.png"
+         visible="false"
+         onhover="onhoverIconD栋捷泰Info"
+         onout="onoutIconD栋捷泰Info"
+
+
+         width="230"
+         height="prop"
+         />
+
+  <action name="onhoverIconD栋捷泰Info">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconD栋捷泰Info">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - D栋圈存Info -->
+  <style name="IconD栋圈存Info"
+         url="%FIRSTXML%/spots/_23384info_user_defaultpoint17.png"
+         visible="false"
+         onhover="onhoverIconD栋圈存Info"
+         onout="onoutIconD栋圈存Info"
+
+
+         width="230"
+         height="prop"
+         />
+
+  <action name="onhoverIconD栋圈存Info">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconD栋圈存Info">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - E栋高新Info -->
+  <style name="IconE栋高新Info"
+         url="%FIRSTXML%/spots/_26032info_user_defaultpoint18.png"
+         visible="false"
+         onhover="onhoverIconE栋高新Info"
+         onout="onoutIconE栋高新Info"
+
+
+         width="230"
+         height="prop"
+         />
+
+  <action name="onhoverIconE栋高新Info">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconE栋高新Info">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - D栋天选Info -->
+  <style name="IconD栋天选Info"
+         url="%FIRSTXML%/spots/_36873info_user_defaultpoint19.png"
+         visible="false"
+         onhover="onhoverIconD栋天选Info"
+         onout="onoutIconD栋天选Info"
+
+
+         width="230"
+         height="prop"
+         />
+
+  <action name="onhoverIconD栋天选Info">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconD栋天选Info">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - D栋天磐Info -->
+  <style name="IconD栋天磐Info"
+         url="%FIRSTXML%/spots/_30928info_user_defaultpoint20.png"
+         visible="false"
+         onhover="onhoverIconD栋天磐Info"
+         onout="onoutIconD栋天磐Info"
+
+
+         width="230"
+         height="prop"
+         />
+
+  <action name="onhoverIconD栋天磐Info">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconD栋天磐Info">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - D栋政务中心Info -->
+  <style name="IconD栋政务中心Info"
+         url="%FIRSTXML%/spots/_211532001324515info_user_defaultpoint21.png"
+         visible="false"
+         onhover="onhoverIconD栋政务中心Info"
+         onout="onoutIconD栋政务中心Info"
+
+
+         width="230"
+         height="prop"
+         />
+
+  <action name="onhoverIconD栋政务中心Info">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconD栋政务中心Info">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - D栋捷泰东风EV350Info -->
+  <style name="IconD栋捷泰东风EV350Info"
+         url="%FIRSTXML%/spots/_39118ev350_user_defaultpoint22.png"
+         visible="false"
+         onhover="onhoverIconD栋捷泰东风EV350Info"
+         onout="onoutIconD栋捷泰东风EV350Info"
+
+
+         width="230"
+         height="prop"
+         />
+
+  <action name="onhoverIconD栋捷泰东风EV350Info">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconD栋捷泰东风EV350Info">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - D栋捷泰长安V5Info -->
+  <style name="IconD栋捷泰长安V5Info"
+         url="%FIRSTXML%/spots/_23433v5_user_defaultpoint24.png"
+         visible="false"
+         onhover="onhoverIconD栋捷泰长安V5Info"
+         onout="onoutIconD栋捷泰长安V5Info"
+
+
+         width="230"
+         height="prop"
+         />
+
+  <action name="onhoverIconD栋捷泰长安V5Info">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconD栋捷泰长安V5Info">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - D栋捷泰上汽大通EV80Info -->
+  <style name="IconD栋捷泰上汽大通EV80Info"
+         url="%FIRSTXML%/spots/_277732282336890ev80_user_defaultpoint25.png"
+         visible="false"
+         onhover="onhoverIconD栋捷泰上汽大通EV80Info"
+         onout="onoutIconD栋捷泰上汽大通EV80Info"
+
+
+         width="230"
+         height="prop"
+         />
+
+  <action name="onhoverIconD栋捷泰上汽大通EV80Info">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconD栋捷泰上汽大通EV80Info">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - D栋好礼汇Info -->
+  <style name="IconD栋好礼汇Info"
+         url="%FIRSTXML%/spots/_3103627719info_user_defaultpoint23.png"
+         visible="false"
+         onhover="onhoverIconD栋好礼汇Info"
+         onout="onoutIconD栋好礼汇Info"
+
+
+         width="230"
+         height="prop"
+         />
+
+  <action name="onhoverIconD栋好礼汇Info">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconD栋好礼汇Info">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - btnLocation -->
+  <style name="IconbtnLocation"
+         url="%FIRSTXML%/spots/btnlocation_user_defaultpoint26.png"
+         visible="false"
+         onhover="onhoverIconbtnLocation"
+         onout="onoutIconbtnLocation"
+
+
+         width="38"
+         height="prop"
+         />
+
+  <action name="onhoverIconbtnLocation">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconbtnLocation">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - btnPhone -->
+  <style name="IconbtnPhone"
+         url="%FIRSTXML%/spots/btnphone_user_defaultpoint27.png"
+         visible="false"
+         onhover="onhoverIconbtnPhone"
+         onout="onoutIconbtnPhone"
+
+
+         width="38"
+         height="prop"
+         />
+
+  <action name="onhoverIconbtnPhone">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconbtnPhone">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - btnVR -->
+  <style name="IconbtnVR"
+         url="%FIRSTXML%/spots/btnvr_user_defaultpoint28.png"
+         visible="false"
+         onhover="onhoverIconbtnVR"
+         onout="onoutIconbtnVR"
+
+
+         width="38"
+         height="prop"
+         />
+
+  <action name="onhoverIconbtnVR">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconbtnVR">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - btnWebsite -->
+  <style name="IconbtnWebsite"
+         url="%FIRSTXML%/spots/btnwebsite_user_defaultpoint29.png"
+         visible="false"
+         onhover="onhoverIconbtnWebsite"
+         onout="onoutIconbtnWebsite"
+
+
+         width="38"
+         height="prop"
+         />
+
+  <action name="onhoverIconbtnWebsite">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconbtnWebsite">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - D栋MRDrink -->
+  <style name="IconD栋MRDrink"
+         url="%FIRSTXML%/spots/drink_user_defaultpoint30.jpg"
+         visible="false"
+         onhover="onhoverIconD栋MRDrink"
+         onout="onoutIconD栋MRDrink"
+
+
+         width="300"
+         height="prop"
+         />
+
+  <action name="onhoverIconD栋MRDrink">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconD栋MRDrink">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - D栋MREat -->
+  <style name="IconD栋MREat"
+         url="%FIRSTXML%/spots/eat_user_defaultpoint31.jpg"
+         visible="false"
+         onhover="onhoverIconD栋MREat"
+         onout="onoutIconD栋MREat"
+
+
+         width="300"
+         height="prop"
+         />
+
+  <action name="onhoverIconD栋MREat">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconD栋MREat">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+</krpano>
